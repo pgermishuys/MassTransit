@@ -82,5 +82,10 @@ namespace MassTransit.TestFramework
         {
             return AsyncTestHarness.GetConsumeObserver();
         }
+
+        protected TestPublishObserver GetPublishObserver()
+        {
+            return AsyncTestHarness.GetPublishObserver();
+        }
     }
 }

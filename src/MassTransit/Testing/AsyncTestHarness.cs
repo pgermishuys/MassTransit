@@ -122,5 +122,10 @@
         {
             return new TestConsumeObserver(TestTimeout, InactivityToken);
         }
+
+        public TestPublishObserver GetPublishObserver()
+        {
+            return new TestPublishObserver(TestTimeout, InactivityToken);
+        }
     }
 }

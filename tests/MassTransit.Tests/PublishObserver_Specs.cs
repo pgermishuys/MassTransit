@@ -11,7 +11,6 @@
         using TestFramework.Messages;
         using Util;
 
-
         [TestFixture]
         public class Connecting_to_the_publish_observer_bus :
             InMemoryTestFixture
